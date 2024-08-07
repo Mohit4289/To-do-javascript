@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Task Manager</title>
+</head>
+<body>
+  <div class="main">
+    <label for="head">To do</label>
+    <input type="text" id="head" placeholder="write your task">
+    <button id="submit">Submit</button>
+  </div>
+  <div class="tasks">
+    <table>
+      <thead>
+        <tr>
+          <th>Task</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody id="task-table-body">
+      </tbody>
+    </table>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
